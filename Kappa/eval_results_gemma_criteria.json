@@ -1,0 +1,1568 @@
+{
+  "summary": {
+    "n": 50,
+    "visual": {
+      "operation_type": 0.66,
+      "affected_feature": 0.66,
+      "spatial_location": 0.66,
+      "score": 0.66
+    },
+    "program_diff": {
+      "parameter_identity": 0.6,
+      "feature_binding": 0.52,
+      "score": 0.56
+    }
+  },
+  "results": [
+    {
+      "index": 6,
+      "ground_truth": "An annular groove was added around the central hole.",
+      "prediction": "A cylindrical boss is added around the central hole.",
+      "visual": {
+        "operation_type": {
+          "label": "match",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "partial",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "match",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "partial",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "match",
+          "score": 1
+        },
+        "score": 1.0
+      }
+    },
+    {
+      "index": 25,
+      "ground_truth": "A pentagonal prism was attached to the center of the cylinder.",
+      "prediction": "A pentagonal prism is added to the top face of the cylinder.",
+      "visual": {
+        "operation_type": {
+          "label": "match",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "match",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "match",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "conflict",
+          "score": 0
+        },
+        "score": 0.5
+      }
+    },
+    {
+      "index": 65,
+      "ground_truth": "Cylindrical sections were shaped and aligned from the rectangular prism into a compound cylinder.",
+      "prediction": "A cylindrical boss was added to the center of the object.",
+      "visual": {
+        "operation_type": {
+          "label": "partial",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "partial",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "partial",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      }
+    },
+    {
+      "index": 139,
+      "ground_truth": "A central block protruded from the vertical prism's center.",
+      "prediction": "A rectangular block is added to the lower horizontal section of the object.",
+      "visual": {
+        "operation_type": {
+          "label": "none",
+          "score": 0
+        },
+        "affected_feature": {
+          "label": "none",
+          "score": 0
+        },
+        "spatial_location": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "none",
+          "score": 0
+        },
+        "feature_binding": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      }
+    },
+    {
+      "index": 150,
+      "ground_truth": "The rectangular block was replaced with a cylinder and a smaller cylinder was added on top.",
+      "prediction": "A smaller cylinder is added to the top face of the cylinder.",
+      "visual": {
+        "operation_type": {
+          "label": "partial",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "match",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "match",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "none",
+          "score": 0
+        },
+        "feature_binding": {
+          "label": "match",
+          "score": 1
+        },
+        "score": 0.5
+      }
+    },
+    {
+      "index": 158,
+      "ground_truth": "The cuboid was cut lengthwise and extruded into a half-cylinder shape.",
+      "prediction": "Two circular holes were cut into the object.",
+      "visual": {
+        "operation_type": {
+          "label": "none",
+          "score": 0
+        },
+        "affected_feature": {
+          "label": "none",
+          "score": 0
+        },
+        "spatial_location": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "none",
+          "score": 0
+        },
+        "feature_binding": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      }
+    },
+    {
+      "index": 267,
+      "ground_truth": "The hexagonal head was removed.",
+      "prediction": "The hexagonal head of the bolt was removed.",
+      "visual": {
+        "operation_type": {
+          "label": "match",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "match",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "match",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "match",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "match",
+          "score": 1
+        },
+        "score": 1.0
+      }
+    },
+    {
+      "index": 352,
+      "ground_truth": "The U-shaped cut-out was removed to form a solid prism.",
+      "prediction": "The rectangular cutout on the left side of the block was removed.",
+      "visual": {
+        "operation_type": {
+          "label": "match",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "partial",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "partial",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      }
+    },
+    {
+      "index": 376,
+      "ground_truth": "The recess was removed, the top was divided, and the right half was raised to half its height.",
+      "prediction": "The central rectangular hole was removed.",
+      "visual": {
+        "operation_type": {
+          "label": "match",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "match",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "match",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      }
+    },
+    {
+      "index": 405,
+      "ground_truth": "The prism was removed, the cylinder was enlarged, and a concentric through-hole was added.",
+      "prediction": "The cylindrical boss on the top face of the block has been removed.",
+      "visual": {
+        "operation_type": {
+          "label": "none",
+          "score": 0
+        },
+        "affected_feature": {
+          "label": "none",
+          "score": 0
+        },
+        "spatial_location": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "none",
+          "score": 0
+        },
+        "feature_binding": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      }
+    },
+    {
+      "index": 438,
+      "ground_truth": "The inset cube was removed and the remaining cube was stretched vertically.",
+      "prediction": "The rectangular cutout was removed from the object.",
+      "visual": {
+        "operation_type": {
+          "label": "match",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "match",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "match",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      }
+    },
+    {
+      "index": 496,
+      "ground_truth": "The vertical prisms were removed and the height of the horizontal prism was extended.",
+      "prediction": "The rectangular cutout was removed from the top of the block.",
+      "visual": {
+        "operation_type": {
+          "label": "none",
+          "score": 0
+        },
+        "affected_feature": {
+          "label": "none",
+          "score": 0
+        },
+        "spatial_location": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "none",
+          "score": 0
+        },
+        "feature_binding": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      }
+    },
+    {
+      "index": 500,
+      "ground_truth": "A tall, concentric cylinder was added to the inner recessed circle.",
+      "prediction": "The central cylindrical protrusion was increased in height.",
+      "visual": {
+        "operation_type": {
+          "label": "partial",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "match",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "match",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "match",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "match",
+          "score": 1
+        },
+        "score": 1.0
+      }
+    },
+    {
+      "index": 508,
+      "ground_truth": "The central hole was resized, one small hole was removed, and the positions were adjusted symmetrically.",
+      "prediction": "Three small holes were removed from the bracket.",
+      "visual": {
+        "operation_type": {
+          "label": "none",
+          "score": 0
+        },
+        "affected_feature": {
+          "label": "none",
+          "score": 0
+        },
+        "spatial_location": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "none",
+          "score": 0
+        },
+        "feature_binding": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      }
+    },
+    {
+      "index": 564,
+      "ground_truth": "The cylindrical extrusion was replaced by a centered rectangular cuboid extrusion.",
+      "prediction": "The cylindrical protrusion on the inner face of the block has been replaced by a rectangular protrusion.",
+      "visual": {
+        "operation_type": {
+          "label": "match",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "match",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "match",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      }
+    },
+    {
+      "index": 570,
+      "ground_truth": "A base extrusion was added and a triangular void was cut.",
+      "prediction": "The rectangular block on the left side of the object was replaced by a smaller triangular block.",
+      "visual": {
+        "operation_type": {
+          "label": "none",
+          "score": 0
+        },
+        "affected_feature": {
+          "label": "none",
+          "score": 0
+        },
+        "spatial_location": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "none",
+          "score": 0
+        },
+        "feature_binding": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      }
+    },
+    {
+      "index": 593,
+      "ground_truth": "The base was detached, resized into a rectangular prism, and the semi-circular prism was repositioned.",
+      "prediction": "The thin rectangular base was replaced with a thicker rectangular block.",
+      "visual": {
+        "operation_type": {
+          "label": "partial",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "partial",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "partial",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      }
+    },
+    {
+      "index": 626,
+      "ground_truth": "The hexagonal prism was converted to a cylinder with features removed and symmetrical grooves added.",
+      "prediction": "The object's main body was changed from a hexagonal prism to a cylindrical prism.",
+      "visual": {
+        "operation_type": {
+          "label": "partial",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "match",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "match",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "match",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "match",
+          "score": 1
+        },
+        "score": 1.0
+      }
+    },
+    {
+      "index": 692,
+      "ground_truth": "The cutout was replaced with a cylinder and the triangular prism was removed.",
+      "prediction": "The cylindrical cut was replaced by a cylindrical addition.",
+      "visual": {
+        "operation_type": {
+          "label": "partial",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "partial",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "match",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "match",
+          "score": 1
+        },
+        "score": 1.0
+      }
+    },
+    {
+      "index": 715,
+      "ground_truth": "The pentagon was replaced with a cylinder-rectangle combination, a hole was cut, and a protrusion was added.",
+      "prediction": "A large circular disk is added to the side of the polygonal plate.",
+      "visual": {
+        "operation_type": {
+          "label": "partial",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "partial",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "none",
+          "score": 0
+        },
+        "feature_binding": {
+          "label": "conflict",
+          "score": 0
+        },
+        "score": 0.0
+      }
+    },
+    {
+      "index": 736,
+      "ground_truth": "The cylinder was hollowed out while its base and holes were preserved.",
+      "prediction": "The central solid cylinder was replaced by a taller hollow tube.",
+      "visual": {
+        "operation_type": {
+          "label": "partial",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "partial",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "partial",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      }
+    },
+    {
+      "index": 777,
+      "ground_truth": "The hollow cylinder became a solid cylinder after being filled.",
+      "prediction": "The hole in the top cylinder has been removed.",
+      "visual": {
+        "operation_type": {
+          "label": "match",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "match",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "match",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "match",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "match",
+          "score": 1
+        },
+        "score": 1.0
+      }
+    },
+    {
+      "index": 808,
+      "ground_truth": "The upright prism was laid flat diagonally near the base's corner.",
+      "prediction": "The vertical wall on the right side of the base was replaced by a horizontal rectangular block lying on the top surface.",
+      "visual": {
+        "operation_type": {
+          "label": "partial",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "partial",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "partial",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      }
+    },
+    {
+      "index": 869,
+      "ground_truth": "The top cylinder was flattened and a shallow central recess was added.",
+      "prediction": "The top cylinder was removed.",
+      "visual": {
+        "operation_type": {
+          "label": "none",
+          "score": 0
+        },
+        "affected_feature": {
+          "label": "none",
+          "score": 0
+        },
+        "spatial_location": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "none",
+          "score": 0
+        },
+        "feature_binding": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      }
+    },
+    {
+      "index": 989,
+      "ground_truth": "The tray was filled, a centered cylinder was added, and its top was chamfered.",
+      "prediction": "The internal cavity of the rectangular box was removed, and a cylinder was added to the top face.",
+      "visual": {
+        "operation_type": {
+          "label": "partial",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "partial",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "partial",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      }
+    },
+    {
+      "index": 1027,
+      "ground_truth": "Seven circular holes were added to the rectangular prism.",
+      "prediction": "Multiple circular holes are cut into the rectangular block.",
+      "visual": {
+        "operation_type": {
+          "label": "partial",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "match",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "match",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "match",
+          "score": 1
+        },
+        "score": 1.0
+      }
+    },
+    {
+      "index": 1030,
+      "ground_truth": "Four corner prisms were added to the original rectangular prism.",
+      "prediction": "Four small rectangular tabs were added to the corners of the back face.",
+      "visual": {
+        "operation_type": {
+          "label": "match",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "partial",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "partial",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      }
+    },
+    {
+      "index": 1073,
+      "ground_truth": "A smaller rectangular prism was added below the original.",
+      "prediction": "A rectangular cavity is cut into the front of the object.",
+      "visual": {
+        "operation_type": {
+          "label": "none",
+          "score": 0
+        },
+        "affected_feature": {
+          "label": "none",
+          "score": 0
+        },
+        "spatial_location": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "none",
+          "score": 0
+        },
+        "feature_binding": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      }
+    },
+    {
+      "index": 1096,
+      "ground_truth": "A smaller cylinder was subtracted from the original cylinder.",
+      "prediction": "A circular hole is cut into the center of the cylinder.",
+      "visual": {
+        "operation_type": {
+          "label": "match",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "match",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "match",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "partial",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      }
+    },
+    {
+      "index": 1177,
+      "ground_truth": "A smaller square prism was subtracted from the original object.",
+      "prediction": "A square pocket is cut into the top face of the cube.",
+      "visual": {
+        "operation_type": {
+          "label": "match",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "match",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "match",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "match",
+          "score": 1
+        },
+        "score": 1.0
+      }
+    },
+    {
+      "index": 1208,
+      "ground_truth": "Two rectangular holes were added to the original prism.",
+      "prediction": "Two rectangular notches are cut from the top edge of the plate.",
+      "visual": {
+        "operation_type": {
+          "label": "partial",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "partial",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "partial",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "conflict",
+          "score": 0
+        },
+        "score": 0.5
+      }
+    },
+    {
+      "index": 1263,
+      "ground_truth": "The two circular holes were removed.",
+      "prediction": "The two cylindrical pegs on the sides of the rectangular bar were removed.",
+      "visual": {
+        "operation_type": {
+          "label": "none",
+          "score": 0
+        },
+        "affected_feature": {
+          "label": "none",
+          "score": 0
+        },
+        "spatial_location": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "none",
+          "score": 0
+        },
+        "feature_binding": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      }
+    },
+    {
+      "index": 1296,
+      "ground_truth": "The smaller rectangular prism was removed.",
+      "prediction": "The two small rectangular protrusions at the base of the object were removed.",
+      "visual": {
+        "operation_type": {
+          "label": "match",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "partial",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "partial",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      }
+    },
+    {
+      "index": 1375,
+      "ground_truth": "The smaller rectangular prism was removed.",
+      "prediction": "The rectangular hole on the front face was removed.",
+      "visual": {
+        "operation_type": {
+          "label": "match",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "partial",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "conflict",
+          "score": 0
+        },
+        "feature_binding": {
+          "label": "conflict",
+          "score": 0
+        },
+        "score": 0.0
+      }
+    },
+    {
+      "index": 1380,
+      "ground_truth": "The smaller central prism was removed.",
+      "prediction": "The hollow center was removed, resulting in a solid rectangular block.",
+      "visual": {
+        "operation_type": {
+          "label": "match",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "partial",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "match",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "partial",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      }
+    },
+    {
+      "index": 1462,
+      "ground_truth": "The circle in the first sketch was replaced with a line-arc curve.",
+      "prediction": "The cylindrical feature on top of the base was removed.",
+      "visual": {
+        "operation_type": {
+          "label": "none",
+          "score": 0
+        },
+        "affected_feature": {
+          "label": "none",
+          "score": 0
+        },
+        "spatial_location": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "none",
+          "score": 0
+        },
+        "feature_binding": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      }
+    },
+    {
+      "index": 1488,
+      "ground_truth": "The cylindrical hole sketch was deleted.",
+      "prediction": "The cylindrical rods protruding from the ends of the hexagonal prism were removed.",
+      "visual": {
+        "operation_type": {
+          "label": "none",
+          "score": 0
+        },
+        "affected_feature": {
+          "label": "none",
+          "score": 0
+        },
+        "spatial_location": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "none",
+          "score": 0
+        },
+        "feature_binding": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      }
+    },
+    {
+      "index": 1515,
+      "ground_truth": "A central cylindrical hole with a diameter of 18 units was added.",
+      "prediction": "A circular hole has been cut through the center of the rectangular plate.",
+      "visual": {
+        "operation_type": {
+          "label": "match",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "match",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "match",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "partial",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      }
+    },
+    {
+      "index": 1567,
+      "ground_truth": "Three circular holes were removed and a new circular hole was added at the top.",
+      "prediction": "The four cylindrical pins on the back are removed and a small circular hole is added to the top edge of the plate.",
+      "visual": {
+        "operation_type": {
+          "label": "partial",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "partial",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "match",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "partial",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "conflict",
+          "score": 0
+        },
+        "score": 0.5
+      }
+    },
+    {
+      "index": 1623,
+      "ground_truth": "A complex central feature with multiple holes was added.",
+      "prediction": "The circular hole on the side of the cylinder has been removed.",
+      "visual": {
+        "operation_type": {
+          "label": "none",
+          "score": 0
+        },
+        "affected_feature": {
+          "label": "none",
+          "score": 0
+        },
+        "spatial_location": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "none",
+          "score": 0
+        },
+        "feature_binding": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      }
+    },
+    {
+      "index": 1659,
+      "ground_truth": "The circular hole was replaced with an identical square prism.",
+      "prediction": "The cylindrical cutout was replaced by a rectangular cutout.",
+      "visual": {
+        "operation_type": {
+          "label": "match",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "partial",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "match",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "match",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "match",
+          "score": 1
+        },
+        "score": 1.0
+      }
+    },
+    {
+      "index": 1661,
+      "ground_truth": "A smaller rectangular prism was added at the top of the original prism.",
+      "prediction": "The cylindrical hole on the top surface was replaced by a cylindrical protrusion.",
+      "visual": {
+        "operation_type": {
+          "label": "none",
+          "score": 0
+        },
+        "affected_feature": {
+          "label": "none",
+          "score": 0
+        },
+        "spatial_location": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "none",
+          "score": 0
+        },
+        "feature_binding": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      }
+    },
+    {
+      "index": 1679,
+      "ground_truth": "Two circular holes were added at the top corners of the prism.",
+      "prediction": "Two cylindrical pegs are added to the top surface of the object.",
+      "visual": {
+        "operation_type": {
+          "label": "partial",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "partial",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "match",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "partial",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      }
+    },
+    {
+      "index": 1722,
+      "ground_truth": "The smaller prism's dimensions and position were modified.",
+      "prediction": "The rectangular depression was expanded and deepened to create a larger cavity.",
+      "visual": {
+        "operation_type": {
+          "label": "none",
+          "score": 0
+        },
+        "affected_feature": {
+          "label": "none",
+          "score": 0
+        },
+        "spatial_location": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "none",
+          "score": 0
+        },
+        "feature_binding": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      }
+    },
+    {
+      "index": 1739,
+      "ground_truth": "Two smaller holes were added and the prism height was increased.",
+      "prediction": "The large central hole is replaced by two smaller circular holes.",
+      "visual": {
+        "operation_type": {
+          "label": "partial",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "partial",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "partial",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "conflict",
+          "score": 0
+        },
+        "score": 0.5
+      }
+    },
+    {
+      "index": 1837,
+      "ground_truth": "The central cylinder was replaced with a square prism and the main prism was extended.",
+      "prediction": "The cylindrical protrusion on the end of the hexagonal prism has been removed.",
+      "visual": {
+        "operation_type": {
+          "label": "conflict",
+          "score": 0
+        },
+        "affected_feature": {
+          "label": "conflict",
+          "score": 0
+        },
+        "spatial_location": {
+          "label": "conflict",
+          "score": 0
+        },
+        "score": 0.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "conflict",
+          "score": 0
+        },
+        "feature_binding": {
+          "label": "conflict",
+          "score": 0
+        },
+        "score": 0.0
+      }
+    },
+    {
+      "index": 1868,
+      "ground_truth": "The central cylinder's height was reduced by seven units.",
+      "prediction": "The height of the cylinder is increased.",
+      "visual": {
+        "operation_type": {
+          "label": "none",
+          "score": 0
+        },
+        "affected_feature": {
+          "label": "none",
+          "score": 0
+        },
+        "spatial_location": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "none",
+          "score": 0
+        },
+        "feature_binding": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      }
+    },
+    {
+      "index": 1876,
+      "ground_truth": "No geometric differences existed between the original and the edited objects.",
+      "prediction": "No change was made to the object.",
+      "visual": {
+        "operation_type": {
+          "label": "match",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "match",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "match",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "match",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "match",
+          "score": 1
+        },
+        "score": 1.0
+      }
+    },
+    {
+      "index": 1943,
+      "ground_truth": "A smaller central cylindrical hole was added.",
+      "prediction": "The base disk and the side hole were removed, and a new cylindrical section was added to the bottom of the shaft, resulting in a stepped cylinder.",
+      "visual": {
+        "operation_type": {
+          "label": "partial",
+          "score": 1
+        },
+        "affected_feature": {
+          "label": "partial",
+          "score": 1
+        },
+        "spatial_location": {
+          "label": "partial",
+          "score": 1
+        },
+        "score": 1.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "partial",
+          "score": 1
+        },
+        "feature_binding": {
+          "label": "conflict",
+          "score": 0
+        },
+        "score": 0.5
+      }
+    },
+    {
+      "index": 1984,
+      "ground_truth": "A rectangular prism was added below the original prism.",
+      "prediction": "The cylindrical protrusion on the top face was removed and a smaller cylindrical protrusion was added to the side face.",
+      "visual": {
+        "operation_type": {
+          "label": "none",
+          "score": 0
+        },
+        "affected_feature": {
+          "label": "none",
+          "score": 0
+        },
+        "spatial_location": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      },
+      "program_diff": {
+        "parameter_identity": {
+          "label": "none",
+          "score": 0
+        },
+        "feature_binding": {
+          "label": "none",
+          "score": 0
+        },
+        "score": 0.0
+      }
+    }
+  ]
+}
