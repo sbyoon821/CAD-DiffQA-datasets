@@ -1,0 +1,1033 @@
+{
+  "summary": {
+    "n": 50,
+    "gemma": {
+      "visual": {
+        "operation_type": 0.64,
+        "affected_feature": 0.76,
+        "spatial_location": 0.7,
+        "score": 0.6999999999999998
+      },
+      "program_diff": {
+        "parameter_identity": 0.68,
+        "feature_binding": 0.64,
+        "score": 0.66
+      }
+    },
+    "qwen": {
+      "visual": {
+        "operation_type": 0.68,
+        "affected_feature": 0.72,
+        "spatial_location": 0.66,
+        "score": 0.6866666666666666
+      },
+      "program_diff": {
+        "parameter_identity": 0.68,
+        "feature_binding": 0.64,
+        "score": 0.66
+      }
+    }
+  },
+  "results": [
+    {
+      "index": 6,
+      "ground_truth": "An annular groove was added around the central hole.",
+      "gemma_answer": "A cylindrical boss is added around the central hole.",
+      "gemma_scores": {
+        "operation_type": "match",
+        "affected_feature": "partial",
+        "spatial_location": "match",
+        "parameter_identity": "partial",
+        "feature_binding": "match"
+      },
+      "qwen_answer": "A circular boss feature was added to the top face near the center, with a diameter of approximately 7 units and an extrusion depth of about 7 units.",
+      "qwen_scores": {
+        "operation_type": "match",
+        "affected_feature": "partial",
+        "spatial_location": "partial",
+        "parameter_identity": "match",
+        "feature_binding": "match"
+      }
+    },
+    {
+      "index": 25,
+      "ground_truth": "A pentagonal prism was attached to the center of the cylinder.",
+      "gemma_answer": "A pentagonal prism is added to the top face of the cylinder.",
+      "gemma_scores": {
+        "operation_type": "partial",
+        "affected_feature": "match",
+        "spatial_location": "partial",
+        "parameter_identity": "match",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "A pentagonal boss was added on the top face of the cylinder, centered and extending upward by approximately 21 units.",
+      "qwen_scores": {
+        "operation_type": "match",
+        "affected_feature": "match",
+        "spatial_location": "match",
+        "parameter_identity": "match",
+        "feature_binding": "match"
+      }
+    },
+    {
+      "index": 65,
+      "ground_truth": "Cylindrical sections were shaped and aligned from the rectangular prism into a compound cylinder.",
+      "gemma_answer": "A cylindrical boss was added to the center of the object.",
+      "gemma_scores": {
+        "operation_type": "partial",
+        "affected_feature": "partial",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "A cylindrical boss with a diameter of approximately 30 units and a height of 15 units was added on the top face of the original object.",
+      "qwen_scores": {
+        "operation_type": "partial",
+        "affected_feature": "match",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      }
+    },
+    {
+      "index": 139,
+      "ground_truth": "A central block protruded from the vertical prism's center.",
+      "gemma_answer": "A rectangular block is added to the lower horizontal section of the object.",
+      "gemma_scores": {
+        "operation_type": "conflict",
+        "affected_feature": "partial",
+        "spatial_location": "conflict",
+        "parameter_identity": "partial",
+        "feature_binding": "conflict"
+      },
+      "qwen_answer": "A rectangular boss was added to the front face, extending outward by approximately 14 units in depth.",
+      "qwen_scores": {
+        "operation_type": "partial",
+        "affected_feature": "partial",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      }
+    },
+    {
+      "index": 150,
+      "ground_truth": "The rectangular block was replaced with a cylinder and a smaller cylinder was added on top.",
+      "gemma_answer": "A smaller cylinder is added to the top face of the cylinder.",
+      "gemma_scores": {
+        "operation_type": "none",
+        "affected_feature": "none",
+        "spatial_location": "none",
+        "parameter_identity": "none",
+        "feature_binding": "none"
+      },
+      "qwen_answer": "A smaller circular boss was added on the top face of the cylinder, centered and extending upward by approximately 14 units in depth.",
+      "qwen_scores": {
+        "operation_type": "none",
+        "affected_feature": "none",
+        "spatial_location": "none",
+        "parameter_identity": "none",
+        "feature_binding": "none"
+      }
+    },
+    {
+      "index": 158,
+      "ground_truth": "The cuboid was cut lengthwise and extruded into a half-cylinder shape.",
+      "gemma_answer": "Two circular holes were cut into the object.",
+      "gemma_scores": {
+        "operation_type": "conflict",
+        "affected_feature": "conflict",
+        "spatial_location": "conflict",
+        "parameter_identity": "conflict",
+        "feature_binding": "none"
+      },
+      "qwen_answer": "The edited object has a circular pocket cut into its top face near the center, as indicated by the sequence and confirmed by the absence of visible changes in the provided images.",
+      "qwen_scores": {
+        "operation_type": "partial",
+        "affected_feature": "conflict",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      }
+    },
+    {
+      "index": 267,
+      "ground_truth": "The hexagonal head was removed.",
+      "gemma_answer": "The hexagonal head of the bolt was removed.",
+      "gemma_scores": {
+        "operation_type": "match",
+        "affected_feature": "match",
+        "spatial_location": "match",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "The hexagonal head and its associated circular hole have been removed from the original cylindrical shaft, leaving only the smooth cylinder as seen in both the isometric and front views.",
+      "qwen_scores": {
+        "operation_type": "match",
+        "affected_feature": "match",
+        "spatial_location": "match",
+        "parameter_identity": "partial",
+        "feature_binding": "match"
+      }
+    },
+    {
+      "index": 352,
+      "ground_truth": "The U-shaped cut-out was removed to form a solid prism.",
+      "gemma_answer": "The rectangular cutout on the left side of the block was removed.",
+      "gemma_scores": {
+        "operation_type": "partial",
+        "affected_feature": "partial",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "The rectangular pocket on the front face has been removed, restoring the solid block's original shape as seen in both the isometric and front views.",
+      "qwen_scores": {
+        "operation_type": "partial",
+        "affected_feature": "match",
+        "spatial_location": "partial",
+        "parameter_identity": "match",
+        "feature_binding": "partial"
+      }
+    },
+    {
+      "index": 376,
+      "ground_truth": "The recess was removed, the top was divided, and the right half was raised to half its height.",
+      "gemma_answer": "The central rectangular hole was removed.",
+      "gemma_scores": {
+        "operation_type": "conflict",
+        "affected_feature": "conflict",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "The central rectangular pocket on the top face has been filled in, removing the internal cavity.",
+      "qwen_scores": {
+        "operation_type": "match",
+        "affected_feature": "partial",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      }
+    },
+    {
+      "index": 405,
+      "ground_truth": "The prism was removed, the cylinder was enlarged, and a concentric through-hole was added.",
+      "gemma_answer": "The cylindrical boss on the top face of the block has been removed.",
+      "gemma_scores": {
+        "operation_type": "partial",
+        "affected_feature": "partial",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "The cylindrical boss on the top face has been removed by a cut operation with a circular sketch matching its original diameter and depth.",
+      "qwen_scores": {
+        "operation_type": "match",
+        "affected_feature": "match",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "match"
+      }
+    },
+    {
+      "index": 438,
+      "ground_truth": "The inset cube was removed and the remaining cube was stretched vertically.",
+      "gemma_answer": "The rectangular cutout was removed from the object.",
+      "gemma_scores": {
+        "operation_type": "partial",
+        "affected_feature": "partial",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "The rectangular pocket on the front face has been removed, restoring the original solid cube shape.",
+      "qwen_scores": {
+        "operation_type": "partial",
+        "affected_feature": "partial",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      }
+    },
+    {
+      "index": 496,
+      "ground_truth": "The vertical prisms were removed and the height of the horizontal prism was extended.",
+      "gemma_answer": "The rectangular cutout was removed from the top of the block.",
+      "gemma_scores": {
+        "operation_type": "partial",
+        "affected_feature": "partial",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "The rectangular cutout on the front face has been filled in, removing the pocket feature and creating a solid rectangular block.",
+      "qwen_scores": {
+        "operation_type": "partial",
+        "affected_feature": "partial",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      }
+    },
+    {
+      "index": 500,
+      "ground_truth": "A tall, concentric cylinder was added to the inner recessed circle.",
+      "gemma_answer": "The central cylindrical protrusion was increased in height.",
+      "gemma_scores": {
+        "operation_type": "conflict",
+        "affected_feature": "partial",
+        "spatial_location": "conflict",
+        "parameter_identity": "partial",
+        "feature_binding": "conflict"
+      },
+      "qwen_answer": "A cylindrical boss was added to the top face, centered along the Y-axis, with a diameter of approximately 42 units and a height of 21 units.",
+      "qwen_scores": {
+        "operation_type": "match",
+        "affected_feature": "partial",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "match"
+      }
+    },
+    {
+      "index": 508,
+      "ground_truth": "The central hole was resized, one small hole was removed, and the positions were adjusted symmetrically.",
+      "gemma_answer": "Three small holes were removed from the bracket.",
+      "gemma_scores": {
+        "operation_type": "conflict",
+        "affected_feature": "partial",
+        "spatial_location": "partial",
+        "parameter_identity": "conflict",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "The edit removes two smaller circular holes from the front face while keeping the larger central hole intact.",
+      "qwen_scores": {
+        "operation_type": "conflict",
+        "affected_feature": "partial",
+        "spatial_location": "match",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      }
+    },
+    {
+      "index": 564,
+      "ground_truth": "The cylindrical extrusion was replaced by a centered rectangular cuboid extrusion.",
+      "gemma_answer": "The cylindrical protrusion on the inner face of the block has been replaced by a rectangular protrusion.",
+      "gemma_scores": {
+        "operation_type": "match",
+        "affected_feature": "match",
+        "spatial_location": "partial",
+        "parameter_identity": "match",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "The cylindrical protrusion was replaced with a rectangular boss by adding a square sketch on the front face and extruding it outward.",
+      "qwen_scores": {
+        "operation_type": "match",
+        "affected_feature": "match",
+        "spatial_location": "match",
+        "parameter_identity": "match",
+        "feature_binding": "match"
+      }
+    },
+    {
+      "index": 570,
+      "ground_truth": "A base extrusion was added and a triangular void was cut.",
+      "gemma_answer": "The rectangular block on the left side of the object was replaced by a smaller triangular block.",
+      "gemma_scores": {
+        "operation_type": "none",
+        "affected_feature": "none",
+        "spatial_location": "none",
+        "parameter_identity": "none",
+        "feature_binding": "none"
+      },
+      "qwen_answer": "The edited object has a smaller rectangular protrusion on the front face compared to the original object.",
+      "qwen_scores": {
+        "operation_type": "none",
+        "affected_feature": "none",
+        "spatial_location": "none",
+        "parameter_identity": "none",
+        "feature_binding": "none"
+      }
+    },
+    {
+      "index": 593,
+      "ground_truth": "The base was detached, resized into a rectangular prism, and the semi-circular prism was repositioned.",
+      "gemma_answer": "The thin rectangular base was replaced with a thicker rectangular block.",
+      "gemma_scores": {
+        "operation_type": "partial",
+        "affected_feature": "partial",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "A rectangular boss feature was added to the top face near the center, extending upward by approximately 45 units in depth.",
+      "qwen_scores": {
+        "operation_type": "conflict",
+        "affected_feature": "partial",
+        "spatial_location": "conflict",
+        "parameter_identity": "none",
+        "feature_binding": "none"
+      }
+    },
+    {
+      "index": 626,
+      "ground_truth": "The hexagonal prism was converted to a cylinder with features removed and symmetrical grooves added.",
+      "gemma_answer": "The object's main body was changed from a hexagonal prism to a cylindrical prism.",
+      "gemma_scores": {
+        "operation_type": "match",
+        "affected_feature": "match",
+        "spatial_location": "partial",
+        "parameter_identity": "match",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "The edited object adds a rectangular cutout on the side face, removing material approximately 1 unit deep along the length of the cylinder as indicated by the sequence and visual changes in both isometric and front views.",
+      "qwen_scores": {
+        "operation_type": "none",
+        "affected_feature": "conflict",
+        "spatial_location": "none",
+        "parameter_identity": "none",
+        "feature_binding": "none"
+      }
+    },
+    {
+      "index": 692,
+      "ground_truth": "The cutout was replaced with a cylinder and the triangular prism was removed.",
+      "gemma_answer": "The cylindrical cut was replaced by a cylindrical addition.",
+      "gemma_scores": {
+        "operation_type": "partial",
+        "affected_feature": "partial",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "A cylindrical boss was added to the top face of the cube, extending downward and partially intersecting the original cylinder.",
+      "qwen_scores": {
+        "operation_type": "conflict",
+        "affected_feature": "partial",
+        "spatial_location": "partial",
+        "parameter_identity": "conflict",
+        "feature_binding": "conflict"
+      }
+    },
+    {
+      "index": 715,
+      "ground_truth": "The pentagon was replaced with a cylinder-rectangle combination, a hole was cut, and a protrusion was added.",
+      "gemma_answer": "A large circular disk is added to the side of the polygonal plate.",
+      "gemma_scores": {
+        "operation_type": "partial",
+        "affected_feature": "conflict",
+        "spatial_location": "partial",
+        "parameter_identity": "conflict",
+        "feature_binding": "none"
+      },
+      "qwen_answer": "A semicircular boss was added to the front face, extending outward by approximately 39 units in depth.",
+      "qwen_scores": {
+        "operation_type": "conflict",
+        "affected_feature": "conflict",
+        "spatial_location": "conflict",
+        "parameter_identity": "conflict",
+        "feature_binding": "conflict"
+      }
+    },
+    {
+      "index": 736,
+      "ground_truth": "The cylinder was hollowed out while its base and holes were preserved.",
+      "gemma_answer": "The central solid cylinder was replaced by a taller hollow tube.",
+      "gemma_scores": {
+        "operation_type": "partial",
+        "affected_feature": "match",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "A cylindrical pocket was added to the top face of the cylinder, creating a hollow interior with a depth of approximately 22 units.",
+      "qwen_scores": {
+        "operation_type": "match",
+        "affected_feature": "match",
+        "spatial_location": "partial",
+        "parameter_identity": "match",
+        "feature_binding": "partial"
+      }
+    },
+    {
+      "index": 777,
+      "ground_truth": "The hollow cylinder became a solid cylinder after being filled.",
+      "gemma_answer": "The hole in the top cylinder has been removed.",
+      "gemma_scores": {
+        "operation_type": "partial",
+        "affected_feature": "partial",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "The edited object adds a circular boss feature on the top face with a diameter of approximately 18 units and a depth of 25 units, as confirmed by both the visual changes in the isometric and front views and the additional sketch-extrude sequence.",
+      "qwen_scores": {
+        "operation_type": "conflict",
+        "affected_feature": "none",
+        "spatial_location": "partial",
+        "parameter_identity": "none",
+        "feature_binding": "none"
+      }
+    },
+    {
+      "index": 808,
+      "ground_truth": "The upright prism was laid flat diagonally near the base's corner.",
+      "gemma_answer": "The vertical wall on the right side of the base was replaced by a horizontal rectangular block lying on the top surface.",
+      "gemma_scores": {
+        "operation_type": "partial",
+        "affected_feature": "conflict",
+        "spatial_location": "match",
+        "parameter_identity": "conflict",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "The edited object adds a rectangular boss feature on the top face, extending along the length of the original protrusion and increasing its width by approximately 2 units.",
+      "qwen_scores": {
+        "operation_type": "partial",
+        "affected_feature": "partial",
+        "spatial_location": "conflict",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      }
+    },
+    {
+      "index": 869,
+      "ground_truth": "The top cylinder was flattened and a shallow central recess was added.",
+      "gemma_answer": "The top cylinder was removed.",
+      "gemma_scores": {
+        "operation_type": "none",
+        "affected_feature": "none",
+        "spatial_location": "none",
+        "parameter_identity": "none",
+        "feature_binding": "none"
+      },
+      "qwen_answer": "The edited object removes a cylindrical section from the top face, leaving only the base plate as seen in both the isometric and front views.",
+      "qwen_scores": {
+        "operation_type": "none",
+        "affected_feature": "none",
+        "spatial_location": "none",
+        "parameter_identity": "none",
+        "feature_binding": "none"
+      }
+    },
+    {
+      "index": 989,
+      "ground_truth": "The tray was filled, a centered cylinder was added, and its top was chamfered.",
+      "gemma_answer": "The internal cavity of the rectangular box was removed, and a cylinder was added to the top face.",
+      "gemma_scores": {
+        "operation_type": "partial",
+        "affected_feature": "partial",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "A cylindrical boss with a diameter of approximately 9 units and a height of 7 units was added to the top face near the front edge of the object.",
+      "qwen_scores": {
+        "operation_type": "partial",
+        "affected_feature": "partial",
+        "spatial_location": "partial",
+        "parameter_identity": "match",
+        "feature_binding": "match"
+      }
+    },
+    {
+      "index": 1027,
+      "ground_truth": "Seven circular holes were added to the rectangular prism.",
+      "gemma_answer": "Multiple circular holes are cut into the rectangular block.",
+      "gemma_scores": {
+        "operation_type": "conflict",
+        "affected_feature": "match",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "Six circular holes were cut into the top face of the rectangular block, each approximately 10 units in diameter and extending 21 units deep into the material.",
+      "qwen_scores": {
+        "operation_type": "partial",
+        "affected_feature": "partial",
+        "spatial_location": "partial",
+        "parameter_identity": "match",
+        "feature_binding": "partial"
+      }
+    },
+    {
+      "index": 1030,
+      "ground_truth": "Four corner prisms were added to the original rectangular prism.",
+      "gemma_answer": "Four small rectangular tabs were added to the corners of the back face.",
+      "gemma_scores": {
+        "operation_type": "match",
+        "affected_feature": "match",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "Material was added to create rectangular protrusions on the front face near the corners, as confirmed by both the visual changes in the isometric view and the additional sketch-and-extrude operations in the sequence.",
+      "qwen_scores": {
+        "operation_type": "partial",
+        "affected_feature": "partial",
+        "spatial_location": "match",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      }
+    },
+    {
+      "index": 1073,
+      "ground_truth": "A smaller rectangular prism was added below the original.",
+      "gemma_answer": "A rectangular cavity is cut into the front of the object.",
+      "gemma_scores": {
+        "operation_type": "conflict",
+        "affected_feature": "partial",
+        "spatial_location": "conflict",
+        "parameter_identity": "conflict",
+        "feature_binding": "none"
+      },
+      "qwen_answer": "A rectangular pocket was cut into the front face, removing material approximately 23 units wide and 30 units tall.",
+      "qwen_scores": {
+        "operation_type": "conflict",
+        "affected_feature": "partial",
+        "spatial_location": "conflict",
+        "parameter_identity": "conflict",
+        "feature_binding": "conflict"
+      }
+    },
+    {
+      "index": 1096,
+      "ground_truth": "A smaller cylinder was subtracted from the original cylinder.",
+      "gemma_answer": "A circular hole is cut into the center of the cylinder.",
+      "gemma_scores": {
+        "operation_type": "match",
+        "affected_feature": "match",
+        "spatial_location": "partial",
+        "parameter_identity": "match",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "A circular pocket with a diameter of approximately 6 units was cut into the top face of the cylinder, as indicated by the sequence and visual changes in the isometric view.",
+      "qwen_scores": {
+        "operation_type": "match",
+        "affected_feature": "match",
+        "spatial_location": "partial",
+        "parameter_identity": "match",
+        "feature_binding": "match"
+      }
+    },
+    {
+      "index": 1177,
+      "ground_truth": "A smaller square prism was subtracted from the original object.",
+      "gemma_answer": "A square pocket is cut into the top face of the cube.",
+      "gemma_scores": {
+        "operation_type": "partial",
+        "affected_feature": "match",
+        "spatial_location": "partial",
+        "parameter_identity": "match",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "A rectangular pocket was cut into the top face of the cube, removing material from its center region as indicated by both the visual change in the isometric view and the additional cut operation in the sequence.",
+      "qwen_scores": {
+        "operation_type": "partial",
+        "affected_feature": "partial",
+        "spatial_location": "match",
+        "parameter_identity": "match",
+        "feature_binding": "partial"
+      }
+    },
+    {
+      "index": 1208,
+      "ground_truth": "Two rectangular holes were added to the original prism.",
+      "gemma_answer": "Two rectangular notches are cut from the top edge of the plate.",
+      "gemma_scores": {
+        "operation_type": "conflict",
+        "affected_feature": "partial",
+        "spatial_location": "none",
+        "parameter_identity": "none",
+        "feature_binding": "none"
+      },
+      "qwen_answer": "A rectangular pocket was cut out from the top face near the left edge, removing material approximately 2 units wide and 8 units deep as indicated by the sequence and visual changes in the isometric view.",
+      "qwen_scores": {
+        "operation_type": "conflict",
+        "affected_feature": "partial",
+        "spatial_location": "partial",
+        "parameter_identity": "conflict",
+        "feature_binding": "partial"
+      }
+    },
+    {
+      "index": 1263,
+      "ground_truth": "The two circular holes were removed.",
+      "gemma_answer": "The two cylindrical pegs on the sides of the rectangular bar were removed.",
+      "gemma_scores": {
+        "operation_type": "match",
+        "affected_feature": "match",
+        "spatial_location": "partial",
+        "parameter_identity": "match",
+        "feature_binding": "match"
+      },
+      "qwen_answer": "The cylindrical protrusions were removed from both ends of the rectangular bar by cutting circular profiles from the front and back faces.",
+      "qwen_scores": {
+        "operation_type": "partial",
+        "affected_feature": "match",
+        "spatial_location": "partial",
+        "parameter_identity": "match",
+        "feature_binding": "match"
+      }
+    },
+    {
+      "index": 1296,
+      "ground_truth": "The smaller rectangular prism was removed.",
+      "gemma_answer": "The two small rectangular protrusions at the base of the object were removed.",
+      "gemma_scores": {
+        "operation_type": "conflict",
+        "affected_feature": "match",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "The rectangular protrusion on the lower-left side of the original object has been removed by a cut operation on the front face.",
+      "qwen_scores": {
+        "operation_type": "partial",
+        "affected_feature": "partial",
+        "spatial_location": "match",
+        "parameter_identity": "partial",
+        "feature_binding": "match"
+      }
+    },
+    {
+      "index": 1375,
+      "ground_truth": "The smaller rectangular prism was removed.",
+      "gemma_answer": "The rectangular hole on the front face was removed.",
+      "gemma_scores": {
+        "operation_type": "partial",
+        "affected_feature": "match",
+        "spatial_location": "partial",
+        "parameter_identity": "match",
+        "feature_binding": "match"
+      },
+      "qwen_answer": "The rectangular cutout on the front face has been filled in, removing the pocket feature.",
+      "qwen_scores": {
+        "operation_type": "conflict",
+        "affected_feature": "partial",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      }
+    },
+    {
+      "index": 1380,
+      "ground_truth": "The smaller central prism was removed.",
+      "gemma_answer": "The hollow center was removed, resulting in a solid rectangular block.",
+      "gemma_scores": {
+        "operation_type": "conflict",
+        "affected_feature": "conflict",
+        "spatial_location": "conflict",
+        "parameter_identity": "conflict",
+        "feature_binding": "conflict"
+      },
+      "qwen_answer": "The rectangular cutout on the front face has been filled in, removing the pocket feature and restoring the solid wall.",
+      "qwen_scores": {
+        "operation_type": "partial",
+        "affected_feature": "partial",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      }
+    },
+    {
+      "index": 1462,
+      "ground_truth": "The circle in the first sketch was replaced with a line-arc curve.",
+      "gemma_answer": "The cylindrical feature on top of the base was removed.",
+      "gemma_scores": {
+        "operation_type": "conflict",
+        "affected_feature": "partial",
+        "spatial_location": "conflict",
+        "parameter_identity": "conflict",
+        "feature_binding": "conflict"
+      },
+      "qwen_answer": "The cylindrical protrusion on the left side of the object has been replaced with a rounded rectangular shape by modifying the sketch and extruding it outward along the same axis.",
+      "qwen_scores": {
+        "operation_type": "match",
+        "affected_feature": "match",
+        "spatial_location": "partial",
+        "parameter_identity": "match",
+        "feature_binding": "match"
+      }
+    },
+    {
+      "index": 1488,
+      "ground_truth": "The cylindrical hole sketch was deleted.",
+      "gemma_answer": "The cylindrical rods protruding from the ends of the hexagonal prism were removed.",
+      "gemma_scores": {
+        "operation_type": "match",
+        "affected_feature": "match",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "The circular hole on the front face has been removed, leaving a solid hexagonal prism.",
+      "qwen_scores": {
+        "operation_type": "match",
+        "affected_feature": "match",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      }
+    },
+    {
+      "index": 1515,
+      "ground_truth": "A central cylindrical hole with a diameter of 18 units was added.",
+      "gemma_answer": "A circular hole has been cut through the center of the rectangular plate.",
+      "gemma_scores": {
+        "operation_type": "match",
+        "affected_feature": "match",
+        "spatial_location": "match",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "A circular hole was cut out from the front face near the upper-right corner, removing material approximately 41 units deep with a diameter of 18 units.",
+      "qwen_scores": {
+        "operation_type": "conflict",
+        "affected_feature": "partial",
+        "spatial_location": "none",
+        "parameter_identity": "none",
+        "feature_binding": "none"
+      }
+    },
+    {
+      "index": 1567,
+      "ground_truth": "Three circular holes were removed and a new circular hole was added at the top.",
+      "gemma_answer": "The four cylindrical pins on the back are removed and a small circular hole is added to the top edge of the plate.",
+      "gemma_scores": {
+        "operation_type": "partial",
+        "affected_feature": "match",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "conflict"
+      },
+      "qwen_answer": "A circular hole was cut out near the center of the front face, removing material from the original rectangular solid.",
+      "qwen_scores": {
+        "operation_type": "partial",
+        "affected_feature": "partial",
+        "spatial_location": "conflict",
+        "parameter_identity": "partial",
+        "feature_binding": "conflict"
+      }
+    },
+    {
+      "index": 1623,
+      "ground_truth": "A complex central feature with multiple holes was added.",
+      "gemma_answer": "The circular hole on the side of the cylinder has been removed.",
+      "gemma_scores": {
+        "operation_type": "none",
+        "affected_feature": "none",
+        "spatial_location": "none",
+        "parameter_identity": "none",
+        "feature_binding": "none"
+      },
+      "qwen_answer": "The edited object adds a cylindrical boss feature extending outward from the side face, approximately matching the size and position of the removed circular pocket.",
+      "qwen_scores": {
+        "operation_type": "match",
+        "affected_feature": "partial",
+        "spatial_location": "conflict",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      }
+    },
+    {
+      "index": 1659,
+      "ground_truth": "The circular hole was replaced with an identical square prism.",
+      "gemma_answer": "The cylindrical cutout was replaced by a rectangular cutout.",
+      "gemma_scores": {
+        "operation_type": "match",
+        "affected_feature": "match",
+        "spatial_location": "partial",
+        "parameter_identity": "match",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "The circular cutout on the front face has been filled in, removing the hollow section and restoring the solid rectangular shape.",
+      "qwen_scores": {
+        "operation_type": "partial",
+        "affected_feature": "conflict",
+        "spatial_location": "conflict",
+        "parameter_identity": "partial",
+        "feature_binding": "conflict"
+      }
+    },
+    {
+      "index": 1661,
+      "ground_truth": "A smaller rectangular prism was added at the top of the original prism.",
+      "gemma_answer": "The cylindrical hole on the top surface was replaced by a cylindrical protrusion.",
+      "gemma_scores": {
+        "operation_type": "none",
+        "affected_feature": "none",
+        "spatial_location": "none",
+        "parameter_identity": "none",
+        "feature_binding": "none"
+      },
+      "qwen_answer": "A cylindrical boss was added on the top face of the rectangular block, replacing the previous circular cutout.",
+      "qwen_scores": {
+        "operation_type": "match",
+        "affected_feature": "conflict",
+        "spatial_location": "partial",
+        "parameter_identity": "conflict",
+        "feature_binding": "partial"
+      }
+    },
+    {
+      "index": 1679,
+      "ground_truth": "Two circular holes were added at the top corners of the prism.",
+      "gemma_answer": "Two cylindrical pegs are added to the top surface of the object.",
+      "gemma_scores": {
+        "operation_type": "match",
+        "affected_feature": "partial",
+        "spatial_location": "match",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "Two cylindrical bosses were added on the top faces of the left and right sections, each with a diameter of approximately 12 units and extending 12 units upward.",
+      "qwen_scores": {
+        "operation_type": "match",
+        "affected_feature": "partial",
+        "spatial_location": "match",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      }
+    },
+    {
+      "index": 1722,
+      "ground_truth": "The smaller prism's dimensions and position were modified.",
+      "gemma_answer": "The rectangular depression was expanded and deepened to create a larger cavity.",
+      "gemma_scores": {
+        "operation_type": "partial",
+        "affected_feature": "partial",
+        "spatial_location": "conflict",
+        "parameter_identity": "partial",
+        "feature_binding": "conflict"
+      },
+      "qwen_answer": "The edited object has a larger rectangular cutout on the top face, extending further towards the edges while maintaining the same depth as the original pocket.",
+      "qwen_scores": {
+        "operation_type": "partial",
+        "affected_feature": "conflict",
+        "spatial_location": "conflict",
+        "parameter_identity": "conflict",
+        "feature_binding": "conflict"
+      }
+    },
+    {
+      "index": 1739,
+      "ground_truth": "Two smaller holes were added and the prism height was increased.",
+      "gemma_answer": "The large central hole is replaced by two smaller circular holes.",
+      "gemma_scores": {
+        "operation_type": "conflict",
+        "affected_feature": "match",
+        "spatial_location": "partial",
+        "parameter_identity": "none",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "The original large circular cutout on the front face was replaced by two smaller circular cutouts positioned side-by-side.",
+      "qwen_scores": {
+        "operation_type": "conflict",
+        "affected_feature": "conflict",
+        "spatial_location": "conflict",
+        "parameter_identity": "conflict",
+        "feature_binding": "conflict"
+      }
+    },
+    {
+      "index": 1837,
+      "ground_truth": "The central cylinder was replaced with a square prism and the main prism was extended.",
+      "gemma_answer": "The cylindrical protrusion on the end of the hexagonal prism has been removed.",
+      "gemma_scores": {
+        "operation_type": "partial",
+        "affected_feature": "partial",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "partial"
+      },
+      "qwen_answer": "The edited object adds a rectangular boss feature on the front face, extending further along the Z-axis compared to the original.",
+      "qwen_scores": {
+        "operation_type": "partial",
+        "affected_feature": "conflict",
+        "spatial_location": "conflict",
+        "parameter_identity": "conflict",
+        "feature_binding": "conflict"
+      }
+    },
+    {
+      "index": 1868,
+      "ground_truth": "The central cylinder's height was reduced by seven units.",
+      "gemma_answer": "The height of the cylinder is increased.",
+      "gemma_scores": {
+        "operation_type": "conflict",
+        "affected_feature": "conflict",
+        "spatial_location": "conflict",
+        "parameter_identity": "conflict",
+        "feature_binding": "conflict"
+      },
+      "qwen_answer": "The cylinder's height increased by adding material on its top face as indicated by the sequence and visual changes in both isometric and front views.",
+      "qwen_scores": {
+        "operation_type": "conflict",
+        "affected_feature": "conflict",
+        "spatial_location": "conflict",
+        "parameter_identity": "conflict",
+        "feature_binding": "conflict"
+      }
+    },
+    {
+      "index": 1876,
+      "ground_truth": "No geometric differences existed between the original and the edited objects.",
+      "gemma_answer": "No change was made to the object.",
+      "gemma_scores": {
+        "operation_type": "match",
+        "affected_feature": "match",
+        "spatial_location": "match",
+        "parameter_identity": "match",
+        "feature_binding": "match"
+      },
+      "qwen_answer": "No changes were made to the object's geometry between the original and edited sequences as both visual and sequence analyses show identical results.",
+      "qwen_scores": {
+        "operation_type": "match",
+        "affected_feature": "match",
+        "spatial_location": "match",
+        "parameter_identity": "match",
+        "feature_binding": "match"
+      }
+    },
+    {
+      "index": 1943,
+      "ground_truth": "A smaller central cylindrical hole was added.",
+      "gemma_answer": "The base disk and the side hole were removed, and a new cylindrical section was added to the bottom of the shaft, resulting in a stepped cylinder.",
+      "gemma_scores": {
+        "operation_type": "partial",
+        "affected_feature": "partial",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "conflict"
+      },
+      "qwen_answer": "The edited object removes the circular cutout on the front face by adding a cylindrical boss that fills the hole.",
+      "qwen_scores": {
+        "operation_type": "conflict",
+        "affected_feature": "conflict",
+        "spatial_location": "conflict",
+        "parameter_identity": "partial",
+        "feature_binding": "conflict"
+      }
+    },
+    {
+      "index": 1984,
+      "ground_truth": "A rectangular prism was added below the original prism.",
+      "gemma_answer": "The cylindrical protrusion on the top face was removed and a smaller cylindrical protrusion was added to the side face.",
+      "gemma_scores": {
+        "operation_type": "partial",
+        "affected_feature": "conflict",
+        "spatial_location": "conflict",
+        "parameter_identity": "conflict",
+        "feature_binding": "conflict"
+      },
+      "qwen_answer": "The edited object adds a rectangular boss on the front face and removes the circular boss from the top face while also adding a smaller circular boss on the side face.",
+      "qwen_scores": {
+        "operation_type": "partial",
+        "affected_feature": "partial",
+        "spatial_location": "partial",
+        "parameter_identity": "partial",
+        "feature_binding": "conflict"
+      }
+    }
+  ]
+}
