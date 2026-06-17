@@ -1,0 +1,16 @@
+# WaveFront *.obj file
+# ExtrudeOperation: CutFeatureOperation
+
+v -0.06402113040288289 -0.06402113040288289
+v 0.9312169551849365 0.0
+
+face
+out
+c 0 1
+
+
+Extrude -0.17460316 -0.015873015 
+T_origin -0.015873015 -0.3333333 -0.015873015
+T_xaxis 1 0 0
+T_yaxis 0 0 1
+T_zaxis 0 -1 0
