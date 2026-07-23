@@ -34,6 +34,22 @@ GPT-5-mini as an LLM judge, across two criteria groups:
 Each criterion is labeled `match` / `partial` / `conflict` / `none` and
 reduced to a 0/1 score.
 
+### `analyze_cad_images.py`
+Generates a model's predicted edit descriptions for `dataset.json` pairs by
+querying a vision-language model (default: Qwen2.5-VL-72B via an
+OpenAI-compatible endpoint). Supports four prompt strategies via
+`--prompt-mode`:
+- **visual-only** — 8 multi-view images only, no CAD sequences.
+- **program-only** — CAD sequences only, no images (text-only call).
+- **joint** — original vs. edited images and sequences presented together.
+- **text-bridge** (default) — sequence diff and image diff computed
+  separately, then combined into a final answer.
+
+Output is a JSON file of `{index, original_pic_name, edited_pic_name,
+original_sequence, edited_sequence, original_images, edited_images,
+question, answer}` records, matching the format consumed by
+`evaluate_gpt.py`.
+
 ### `Claude/`, `Qwen/`
 Per-model predictions and evaluation results, one pair of subfolders per
 model:
